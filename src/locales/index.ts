@@ -1,7 +1,9 @@
 import { ConstructorOf, LocaleInterface } from '../types';
 
+import eeEE from './ee-EE';
 import enAe from './en-AE';
 import enBd from './en-BD';
+import enGb from './en-GB';
 import enGh from './en-GH';
 import enIe from './en-IE';
 import enIn from './en-IN';
@@ -9,20 +11,20 @@ import enMm from './en-MM';
 import enMu from './en-MU';
 import enNg from './en-NG';
 import enNp from './en-NP';
-import enUs from './en-US';
-import enGb from './en-GB';
 import enPh from './en-PH';
+import enUs from './en-US';
+import esEs from './es-ES';
+import esMx from './es-MX';
 import faIr from './fa-IR';
 import frBe from './fr-BE';
 import frFr from './fr-FR';
 import guIn from './gu-IN';
 import hiIn from './hi-IN';
+import koKr from './ko-KR';
 import mrIn from './mr-IN';
+import nlSr from './nl-SR';
 import ptBR from './pt-BR';
 import trTr from './tr-TR';
-import nlSr from './nl-SR';
-import eeEE from './ee-EE';
-import koKr from './ko-KR';
 
 const LOCALES: { [key: string]: ConstructorOf<LocaleInterface> } = {
   'ee-EE': eeEE,
@@ -38,6 +40,8 @@ const LOCALES: { [key: string]: ConstructorOf<LocaleInterface> } = {
   'en-US': enUs,
   'en-GB': enGb,
   'en-PH': enPh,
+  'es-ES': esEs,
+  'es-MX': esMx,
   'fa-IR': faIr,
   'fr-BE': frBe,
   'fr-FR': frFr,

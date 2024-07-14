@@ -3,8 +3,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+const ee_EE_1 = __importDefault(require("./ee-EE"));
 const en_AE_1 = __importDefault(require("./en-AE"));
 const en_BD_1 = __importDefault(require("./en-BD"));
+const en_GB_1 = __importDefault(require("./en-GB"));
 const en_GH_1 = __importDefault(require("./en-GH"));
 const en_IE_1 = __importDefault(require("./en-IE"));
 const en_IN_1 = __importDefault(require("./en-IN"));
@@ -12,20 +14,20 @@ const en_MM_1 = __importDefault(require("./en-MM"));
 const en_MU_1 = __importDefault(require("./en-MU"));
 const en_NG_1 = __importDefault(require("./en-NG"));
 const en_NP_1 = __importDefault(require("./en-NP"));
-const en_US_1 = __importDefault(require("./en-US"));
-const en_GB_1 = __importDefault(require("./en-GB"));
 const en_PH_1 = __importDefault(require("./en-PH"));
+const en_US_1 = __importDefault(require("./en-US"));
+const es_ES_1 = __importDefault(require("./es-ES"));
+const es_MX_1 = __importDefault(require("./es-MX"));
 const fa_IR_1 = __importDefault(require("./fa-IR"));
 const fr_BE_1 = __importDefault(require("./fr-BE"));
 const fr_FR_1 = __importDefault(require("./fr-FR"));
 const gu_IN_1 = __importDefault(require("./gu-IN"));
 const hi_IN_1 = __importDefault(require("./hi-IN"));
+const ko_KR_1 = __importDefault(require("./ko-KR"));
 const mr_IN_1 = __importDefault(require("./mr-IN"));
+const nl_SR_1 = __importDefault(require("./nl-SR"));
 const pt_BR_1 = __importDefault(require("./pt-BR"));
 const tr_TR_1 = __importDefault(require("./tr-TR"));
-const nl_SR_1 = __importDefault(require("./nl-SR"));
-const ee_EE_1 = __importDefault(require("./ee-EE"));
-const ko_KR_1 = __importDefault(require("./ko-KR"));
 const LOCALES = {
     'ee-EE': ee_EE_1.default,
     'en-AE': en_AE_1.default,
@@ -40,6 +42,8 @@ const LOCALES = {
     'en-US': en_US_1.default,
     'en-GB': en_GB_1.default,
     'en-PH': en_PH_1.default,
+    'es-ES': es_ES_1.default,
+    'es-MX': es_MX_1.default,
     'fa-IR': fa_IR_1.default,
     'fr-BE': fr_BE_1.default,
     'fr-FR': fr_FR_1.default,
